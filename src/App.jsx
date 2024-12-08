@@ -1,7 +1,12 @@
 import "./App.css";
+import ReducerHook from "./components/ReducerHook";
 
 function App() {
-  return <>App</>;
+  return (
+    <>
+      <ReducerHook />
+    </>
+  );
 }
 
 export default App;
